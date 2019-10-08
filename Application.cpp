@@ -38,7 +38,7 @@ struct Vector
 		std::cout << "Deleted " << m_Name << std::endl;
 	}
 
-	// @param is for an input vector, which displays the vector to the command prompt
+	// @param is for an input vector, which displays the vector's values to the command prompt
 	void GetVectorValues(Vector& valued)
 	{
 		std::cout << valued.m_x << valued.m_y << valued.m_z << std::endl;

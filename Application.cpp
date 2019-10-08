@@ -67,10 +67,10 @@ public:
 	}
 
 	// A simulating function that just changes an Entity's location
-	Vector* Move(Vector& velocity)
+	Vector Move(Vector& velocity)
 	{
 		 Vector* newDirection = new Vector(velocity);
-		 return newDirection;
+		 return *newDirection;
 	}
 
 private:

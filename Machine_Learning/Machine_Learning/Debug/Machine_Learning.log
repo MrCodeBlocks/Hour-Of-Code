@@ -1,0 +1,3 @@
+﻿  Application.cpp
+c:\dev\machine_learning\machine_learning\application.cpp(8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Machine_Learning.vcxproj -> C:\dev\Machine_Learning\Debug\Machine_Learning.exe
